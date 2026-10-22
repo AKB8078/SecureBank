@@ -1,0 +1,32 @@
+﻿# Visual Studio
+.vs/
+**/.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Angular
+**/node_modules/
+**/dist/
+**/.angular/
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+
+# OS files
+Thumbs.db
+.DS_Store
